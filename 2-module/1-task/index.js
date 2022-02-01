@@ -5,5 +5,5 @@ function sumSalary(salaries) {
       sum += salaries[prop];
     }
   }
-  return parseInt(sum);
+  return sum;
 }
