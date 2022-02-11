@@ -1,4 +1,5 @@
 function highlight(table) {
+
   const  trEl = table.querySelectorAll("tbody>tr");
   for (let i = 0; i < trEl.length; i++) {
     const statusColumn = trEl[i].cells[3];
