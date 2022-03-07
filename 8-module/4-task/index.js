@@ -167,7 +167,7 @@ export default class Cart {
     }
     if (this.cartItems.length === 0) {
       this.modal.close();
-    //  document.querySelector('.cart-icon').classList.remove('cart-icon_visible');
+    // document.querySelector('.cart-icon').classList.remove('cart-icon_visible');
     }
   }
 
